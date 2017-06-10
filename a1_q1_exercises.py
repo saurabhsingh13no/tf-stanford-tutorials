@@ -120,6 +120,7 @@ with tf.Session() as sess:
 
       x=tf.random_normal(shape=(300,1))
       y=tf.random_normal(shape=(300,1))
-      mse=tf.add(x,y)/x
+      mse=tf.reduce_mean(tf.square(tf.subtract(x,y)))
+      out=
       with tf.Session() as sess:
-          print (sess.run([x.get_shape()]))
+          print (sess.run(out))
