@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d435b52-e88b-40b4-8041-16d3b7a1b1ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/a1.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/a2.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/a3.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slides_01.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slides_02.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slides_03.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slides_04.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slides_05.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slides_06.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slides_07.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slides_09.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slides_11.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slides_12.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slides_13.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Tensorflow Stanford.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/a1_q1_exercises.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a1_q1_exercises.py" afterPath="$PROJECT_DIR$/a1_q1_exercises.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,8 +20,8 @@
       <file leaf-file-name="a1_q1_exercises.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/a1_q1_exercises.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="352">
+              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -352,8 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a1_q1_exercises.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="352">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
       </provider>

@@ -14,7 +14,7 @@ import tensorflow as tf
 
 x = tf.random_uniform([])  # Empty array as shape creates a scalar.
 y = tf.random_uniform([])
-out = tf.cond(tf.less(x, y), lambda: tf.add(x, y), lambda: tf.subtract(x, y))
+out = tf.cond(tf.more(x, y), lambda: tf.add(x, y), lambda: tf.subtract(x, y))
 with tf.Session() as sess:
   print (sess.run([x,y,out]))
 ###############################################################################
