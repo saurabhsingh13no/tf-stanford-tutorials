@@ -17,6 +17,7 @@ y = tf.random_uniform([])
 out = tf.cond(tf.less(x, y), lambda: tf.subtract(x, y), lambda: tf.add(x, y))
 with tf.Session() as sess:
   print (sess.run([x,y,out]))
+
 ###############################################################################
 # 1b: Create two 0-d tensors x and y randomly selected from -1 and 1.
 # Return x + y if x < y, x - y if x > y, 0 otherwise.
@@ -39,7 +40,9 @@ x=tf.constant(value=[[0, -2, -1], [0, 1, 2]])
 y=tf.zeros_like(x)
 # out=tf.cond(tf.equal(x,y),lambda:True,lambda:False)
 with tf.Session() as sess:
+
   print (sess.run([x,y,tf.equal(x,y)]))
+
 # YOUR CODE
 
 ###############################################################################
@@ -64,7 +67,10 @@ with tf.Session() as sess:
   y=tf.where(x>30)
   z=tf.gather(params=x,indices=y)
   with tf.Session() as sess:
+      writer = tf.summary.FileWriter("./graphs", sess.graph)
       print (sess.run([x,y,z]))
+      writer.close()
+
 
 
 
@@ -78,7 +84,9 @@ with tf.Session() as sess:
 # YOUR CODE
       x=tf.diag(tf.range(1,7))
       with tf.Session() as sess:
+
         print (sess.run(x))
+
 
 ###############################################################################
 # 1f: Create a random 2-d tensor of size 10 x 10 from any distribution.
@@ -118,9 +126,9 @@ with tf.Session() as sess:
 
 # YOUR CODE
 
-      x=tf.random_normal(shape=(300,1))
-      y=tf.random_normal(shape=(300,1))
-      mse=tf.reduce_mean(tf.square(tf.subtract(x,y)))
-      out=
+      x=tf.random_normal(shape=(3,5))
+      y=tf.random_normal(shape=(5,10))
+      # mse=tf.reduce_mean(tf.square(tf.subtract(x,y)))
       with tf.Session() as sess:
-          print (sess.run(out))
+          print (sess.run(tf.matmul(x,y)))
+          # print (sess.run(out))
